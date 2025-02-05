@@ -109,6 +109,7 @@ public class menu {
                 case 4:
                     exit=false;
                     System.out.println("Saved succesfully");
+                    s.display();
                     break;
                 default:
                     System.out.println("Invaild input");
