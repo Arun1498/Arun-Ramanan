@@ -14,7 +14,7 @@ public class FileCreation {
         }
         public static void createfile(String path) throws IOException{
             System.out.println("Enter the File name");
-            String filen=in.nextLine();
+            String file=in.nextLine();
             File f= new File(path+ file);
             f.createNewFile();
             System.out.println(file+"is Created");
