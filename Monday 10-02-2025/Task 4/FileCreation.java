@@ -6,17 +6,17 @@ public class FileCreation {
         static Scanner in=new Scanner(System.in);
         public static  String createfolder(String path) {
             System.out.println("Enter the folder name");
-            String foldername=in.nextLine();
-            File f= new File(path+foldername);
+            String folder=in.nextLine();
+            File f= new File(path+folder);
             f.mkdir();
-            System.out.println(foldername +" is created");
-            return path+foldername;
+            System.out.println(folder +" is created");
+            return path+folder;
         }
         public static void createfile(String path) throws IOException{
             System.out.println("Enter the File name");
-            String filename=in.nextLine();
-            File f= new File(path+ filename);
+            String filen=in.nextLine();
+            File f= new File(path+ file);
             f.createNewFile();
-            System.out.println(filename+"is Created");
+            System.out.println(file+"is Created");
         }
     }
