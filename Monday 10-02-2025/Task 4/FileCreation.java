@@ -7,10 +7,10 @@ public class FileCreation {
         public static  String createfolder(String path) {
             System.out.println("Enter the folder name");
             String folder=in.nextLine();
-            File f= new File(path+folder);
+            File f= new File(path+folder+"/");
             f.mkdir();
             System.out.println(folder +" is created");
-            return path+folder;
+            return path+folder+"/";
         }
         public static void createfile(String path) throws IOException{
             System.out.println("Enter the File name");
