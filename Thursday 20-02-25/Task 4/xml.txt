@@ -1,0 +1,18 @@
+  <context-param>
+        <param-name> n1 </param-name>
+        <param-value> ABCD </param-value>
+    </context-param>
+<context-param>
+        <param-name> n2  </param-name>
+        <param-value> 788 </param-value>
+    </context-param>
+
+<servlet>
+        <servlet-name>OnServletContext</servlet-name>
+        <servlet-class>OnServletContext</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+            <servlet-name>OnServletContext</servlet-name>
+            <url-pattern>/OnServletContext</url-pattern>
+    </servlet-mapping>

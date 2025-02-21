@@ -1,0 +1,19 @@
+<servlet>
+    <servlet-name>InitParamExample</servlet-name>
+    <servlet-class>
+        servletpackage.InitParamExample
+    </servlet-class>
+
+<init-param>
+        <param-name>address</param-name>
+        <param-value>Chennai</param-value>
+        <param-name>email</param-name>
+        <param-value>abcd@gmail.com</param-value>
+	    <param-name>phone</param-name>
+        <param-value>9384564715</param-value>
+    </init-param>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>InitParamExample</servlet-name>
+    <url-pattern>/InitParamExample</url-pattern>
+  </servlet-mapping>
