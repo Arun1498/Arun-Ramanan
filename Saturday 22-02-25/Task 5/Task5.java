@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) throws InterruptedException {
-        Scanner sc = new scner(System.in);
+        Scanner sc = new scanner(System.in);
         System.out.print("Enter the limit: ");
         int limit = sc.nextInt();
         int numthrds = 4;
