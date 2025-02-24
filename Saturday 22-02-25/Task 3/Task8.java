@@ -1,7 +1,8 @@
 import java.io.File;
+
 public class Task8 {
     public static void main(String[] args) {
-        String path = "C:\Users\user\Desktop\TM Training\Saturday 22-02-25\\Core Java Consolidated Tasks - 22 Feb '25.pdf";
+        String path = "C:/Users/user/Desktop/TM Training/Saturday 22-02-25/Core Java Consolidated Tasks - 22 Feb '25.pdf";
         File file = new File(path);
         if (file.exists() && file.isFile()) {
             long bytes = file.length();
