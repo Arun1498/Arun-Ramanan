@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
-        String path = "C:\Users\user\Desktop\TM Training\Saturday 22-02-25\\Task4\\EmptyFile.txt";
+    String path = "C:\\Users\\user\\Desktop\\TM Training\\Saturday 22-02-25\\Task4\\EmptyFile.txt";
         try {
             readFile(path);
             System.out.println("File is not empty.");
