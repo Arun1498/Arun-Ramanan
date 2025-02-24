@@ -1,34 +1,42 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.*;
+import java.util.Scanner;
+
 public class Task4 {
     public static void main(String[] args) {
-        String path = "C:\Users\user\Desktop\TM Training\Saturday 22-02-25\\Task4\\NumberFile.txt";
+        String path = "C:\\Users\\user\\Desktop\\TM Training\\Saturday 22-02-25\\Task4\\NumberFile.txt"; 
         try {
             ReadNoFromFile(path);
-        }catch(FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
-        } catch (PostiveNoException e) {
+        } catch (PositiveNoException e) { 
             System.out.println(e.getMessage());
         }
     }
-    public static void ReadNoFromFile(String path) throws FileNotFoundException, PostiveNoException{
+
+    public static void ReadNoFromFile(String path) throws FileNotFoundException, PositiveNoException {
         File file = new File(path);
         Scanner scan = new Scanner(file);
-            while(scan.hasNext()){
-                if(scan.hasNextInt()){
-                    if(scan.nextInt() > 0){
-                        throw new PostiveNoException("The File have postive Nos ");
-                    }
-                }else{
-                    scan.next();
-                }
-            }
 
+        
+        while (scan.hasNext()) {
+            if (scan.hasNextInt()) {
+                int number = scan.nextInt();
+                if (number > 0) { 
+                    throw new PositiveNoException("The file contains positive numbers: " + number);
+                }
+            } else {
+                scan.next(); 
+            }
+        }
+        scan.close();
+        System.out.println("No positive numbers found in the file.");
     }
 }
-class PostiveNoException extends Exception{
-    PostiveNoException(String msg){
+
+
+class PositiveNoException extends Exception {
+    PositiveNoException(String msg) {
         super(msg);
     }
 }
