@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Task5 {
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
@@ -22,13 +23,16 @@ public class Task5 {
         System.out.println("Sum of prime numbers up to " + limit + " is: " + totalSum);
     }
 }
-class PrimeSumthrd extends thrd {
+
+class PrimeSumthrd extends Thread {
     private final int start, end;
     private int sum = 0;
+
     public PrimeSumthrd(int start, int end) {
         this.start = start;
         this.end = end;
     }
+
     @Override
     public void run() {
         for (int i = start; i <= end; i++) {
@@ -37,9 +41,11 @@ class PrimeSumthrd extends thrd {
             }
         }
     }
+
     public int getSum() {
         return sum;
     }
+
     private boolean isPrime(int num) {
         if (num < 2)
             return false;
