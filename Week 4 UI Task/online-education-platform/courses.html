@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Explore Our Courses</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="enroll.html">Enroll Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="course-search">
+      <input type="text" id="search" placeholder="Search for a course..." />
+    </div>
+
+    <section id="courses"></section>
+
+    <script>
+      const coursesSection = document.getElementById("courses");
+
+      fetch('courses.json')
+        .then(response => response.json())
+        .then(courses => {
+          courses.forEach(course => {
+            const courseCard = document.createElement("div");
+            courseCard.classList.add("course-card");
+
+            courseCard.innerHTML = `
+              <img src="${course.image}" alt="${course.title}" />
+              <h3>${course.title}</h3>
+              <p><strong>Instructor:</strong> ${course.instructor}</p>
+              <p>${course.description}</p>
+              <p><strong>Price:</strong> ₹${course.price}</p>
+              <a href="enroll.html?course=${encodeURIComponent(course.title)}" class="btn">Enroll Now</a>
+            `;
+
+            coursesSection.appendChild(courseCard);
+          });
+        })
+        .catch(error => {
+          console.error('Error loading the courses:', error);
+        });
+
+      document.getElementById("search").addEventListener("input", function(event) {
+        const searchQuery = event.target.value.toLowerCase();
+        const courseCards = document.querySelectorAll(".course-card");
+
+        courseCards.forEach(card => {
+          const title = card.querySelector("h3").innerText.toLowerCase();
+          const description = card.querySelector("p").innerText.toLowerCase();
+
+          if (title.includes(searchQuery) || description.includes(searchQuery)) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

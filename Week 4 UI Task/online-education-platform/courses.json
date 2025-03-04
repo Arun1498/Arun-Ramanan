@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Basics",
+    "instructor": "Amit Sharma",
+    "description": "Learn the fundamentals of JavaScript programming.",
+    "price": 3500,
+    "image": "assets/course1.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Advanced CSS",
+    "instructor": "Priya Gupta",
+    "description": "Master CSS for building beautiful, responsive web pages.",
+    "price": 4500,
+    "image": "assets/course2.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "React for Beginners",
+    "instructor": "Ravi Kumar",
+    "description": "Start building dynamic web applications with React.",
+    "price": 5000,
+    "image": "assets/course3.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science",
+    "instructor": "Neha Iyer",
+    "description": "Learn Python for data analysis and machine learning.",
+    "price": 5500,
+    "image": "assets/course4.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "UI/UX Design",
+    "instructor": "Sandeep Reddy",
+    "description": "Learn the fundamentals of user experience and interface design.",
+    "price": 4000,
+    "image": "assets/course5.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Digital Marketing",
+    "instructor": "Kavita Joshi",
+    "description": "Master digital marketing strategies and techniques.",
+    "price": 4500,
+    "image": "assets/course6.jpeg"
+  }
+]
