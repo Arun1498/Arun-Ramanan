@@ -1,0 +1,43 @@
+<div class="home-container">
+  <h3>Our Services</h3>
+<style>
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h3 {
+      text-align: center;
+      color: #4a90e2;
+      margin-top: 30px;
+    }
+
+    .home-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+</style>
+  <div class="services-list">
+    <app-service-card
+      *ngFor="let service of serviceslist"
+      [service]="service"
+      (click)="onServiceClick(service.id)"
+    ></app-service-card>
+  </div>
+
+ 
+</div>
+<app-enquiry-form></app-enquiry-form>

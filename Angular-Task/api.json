@@ -1,0 +1,247 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Product Design and Development",
+      "description": "We provide end-to-end product design services, from concept through prototyping and manufacturing. Our engineering team works with you to create innovative solutions that are efficient, cost-effective, and ready for mass production.",
+      "image": "product-design.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Automation and Control Systems",
+      "description": "Our expertise in automation and control systems helps optimize your operations. We design custom automation systems that enhance productivity, reduce costs, and ensure reliable, safe performance for industrial applications.",
+      "image": "automation.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Structural Engineering Solutions",
+      "description": "Our structural engineers provide innovative and sustainable solutions for buildings, bridges, and other infrastructure projects. We focus on safety, durability, and cost-efficiency, ensuring your project stands the test of time.",
+      "image": "structural-engineering.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Electrical and Electronics Engineering",
+      "description": "From circuit design to complex electrical systems, our electrical engineers provide integrated solutions tailored to your specific requirements. We specialize in creating safe, efficient, and high-performance systems for various industries.",
+      "image": "electrical-engineering.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Systems Integration",
+      "description": "We offer comprehensive systems integration services that help streamline your processes. Our team integrates hardware and software solutions to ensure seamless operations across all systems, enhancing efficiency and performance.",
+      "image": "systems-integration.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Research and Development (R&D)",
+      "description": "Our R&D services help bring new ideas to life. We work closely with clients to develop innovative solutions, prototypes, and technologies that push the boundaries of what's possible, ensuring a competitive edge in the market.",
+      "image": "rnd.jpg"
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "title": "Innovative Product Design and Development",
+      "description": [
+        "Our team collaborates with clients to create products that stand out in the market. From initial design sketches to functional prototypes, we ensure the product meets both engineering standards and customer expectations.",
+        "We focus on creating user-friendly, cost-effective, and scalable products that can be manufactured efficiently for the commercial market."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Optimizing Operations with Automation and Control",
+      "description": [
+        "We specialize in developing automation systems that streamline your business operations. Whether it's a manufacturing line or complex industrial process, our systems improve operational efficiency, reduce downtime, and enhance safety.",
+        "Our expertise includes designing control systems for robotics, process automation, and factory management, ensuring a seamless and efficient workflow."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Engineering Safe and Durable Structures",
+      "description": [
+        "Our structural engineers provide creative solutions for a wide variety of projects, from residential buildings to large-scale commercial and infrastructure projects.",
+        "By focusing on both safety and sustainability, we ensure that the structures we design are not only cost-effective but also built to last, meeting all regulatory standards and environmental considerations."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Advanced Electrical and Electronics Solutions",
+      "description": [
+        "We offer complete electrical and electronic engineering services, including circuit design, PCB layout, embedded systems development, and electrical system integration.",
+        "Whether you're building a new product or upgrading existing systems, we provide solutions that are safe, energy-efficient, and built for performance."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Seamless Systems Integration",
+      "description": [
+        "Our systems integration services ensure that all your technological components work together efficiently. Whether it's hardware, software, or both, we bring everything into alignment to create a unified and functional system.",
+        "We specialize in integrating control systems, automation, IT infrastructure, and data systems, helping businesses achieve optimal performance and productivity."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Research and Development for Cutting-Edge Solutions",
+      "description": [
+        "Our R&D services are designed to push the boundaries of innovation. We work closely with clients to research new technologies, develop prototypes, and create solutions that improve efficiency and meet specific market demands.",
+        "From early-stage conceptualization to advanced prototype testing, we help bring innovative ideas to life, ensuring they are commercially viable and competitive in the market."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Automation System for Manufacturing Plant",
+      "description": "We developed a custom automation system for a manufacturing plant, improving efficiency and reducing manual labor.",
+      "status": "completed",
+      "startDate": "2023-01-01",
+      "endDate": "2023-03-31",
+      "teamSize": 15,
+      "image": "project1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Product Design for Consumer Electronics",
+      "description": "Our team successfully designed a new consumer electronics product from concept to prototype, ready for production.",
+      "status": "completed",
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-30",
+      "teamSize": 12,
+      "image": "project2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Structural Engineering for Commercial Building",
+      "description": "We provided comprehensive structural engineering services for the construction of a high-rise commercial building.",
+      "status": "active",
+      "startDate": "2023-07-01",
+      "endDate": "2024-06-30",
+      "teamSize": 20,
+      "image": "project3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Website Redesign for E-Commerce Platform",
+      "description": "We revamped the website for an e-commerce platform to enhance user experience and improve conversion rates.",
+      "status": "completed",
+      "startDate": "2023-02-15",
+      "endDate": "2023-04-30",
+      "teamSize": 10,
+      "image": "project4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mobile App Development for Healthcare",
+      "description": "Developed a mobile application for healthcare providers to streamline patient scheduling and medical records management.",
+      "status": "active",
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "teamSize": 18,
+      "image": "project5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Data Analytics for Retail Business",
+      "description": "Implemented a data analytics solution to help a retail business track inventory, sales trends, and customer behavior.",
+      "status": "completed",
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-15",
+      "teamSize": 8,
+      "image": "project6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Cloud Migration for Financial Institution",
+      "description": "Led the migration of a financial institution's legacy systems to the cloud, enhancing scalability and security.",
+      "status": "active",
+      "startDate": "2023-08-01",
+      "endDate": "2024-02-28",
+      "teamSize": 25,
+      "image": "project7.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Custom ERP System for Manufacturing Company",
+      "description": "Developed and deployed a custom ERP system for a manufacturing company, improving operational efficiency and data visibility.",
+      "status": "completed",
+      "startDate": "2023-06-01",
+      "endDate": "2023-08-31",
+      "teamSize": 22,
+      "image": "project8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "AI-based Chatbot for Customer Support",
+      "description": "Developed an AI-powered chatbot to provide 24/7 customer support for an e-commerce business.",
+      "status": "active",
+      "startDate": "2023-09-01",
+      "endDate": "2024-03-31",
+      "teamSize": 14,
+      "image": "project9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Blockchain Solution for Supply Chain",
+      "description": "Designed and implemented a blockchain solution to enhance transparency and traceability in the supply chain of a global logistics company.",
+      "status": "completed",
+      "startDate": "2023-04-15",
+      "endDate": "2023-07-30",
+      "teamSize": 30,
+      "image": "project10.jpg"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "ef47",
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "serviceType": "Product Design and Development",
+      "message": "We need assistance in developing a new consumer product with advanced features."
+    },
+    {
+      "id": "ef48",
+      "name": "Emily",
+      "email": "emily@gmail.com",
+      "serviceType": "Automation and Control Systems",
+      "message": "We are looking for a custom automation solution to improve our manufacturing processes."
+    },
+    {
+      "id": "ef49",
+      "name": "David",
+      "email": "david@gmail.com",
+      "serviceType": "Structural Engineering Solutions",
+      "message": "We require structural design for a new office building under construction."
+    },
+    {
+      "id": "ef50",
+      "name": "Sarah",
+      "email": "sarah@gmail.com",
+      "serviceType": "Electrical and Electronics Engineering",
+      "message": "We need an electrical system designed for a new product prototype."
+    },
+    {
+      "id": "ef51",
+      "name": "John",
+      "email": "john@gmail.com",
+      "serviceType": "Systems Integration",
+      "message": "We need help integrating multiple systems to streamline operations."
+    },
+    {
+      "id": "ef52",
+      "name": "Olivia",
+      "email": "olivia@gmail.com",
+      "serviceType": "Research and Development (R&D)",
+      "message": "We are seeking R&D services to develop a new technology product."
+    }
+  ],
+  "enquiryresponses": [
+    {
+      "id": "6412",
+      "subject": "Product Design and Development Project Estimation",
+      "message": "We reviewed your enquiry and it's feasible. We have developed an initial blueprint for your product.",
+      "estimatedPrice": 50000,
+      "duration": "4 months",
+      "email": "charlie@sunshine-tech.com",
+      "messageId": "47"
+    }
+  ]
+}
