@@ -4,67 +4,85 @@
       "id": "1",
       "Title": "Lion King",
       "Year": "2019",
-      "Poster": "https://th.bing.com/th/id/OIP.-OFkUcfCgtxiolQLHu63UQHaLA?rs=1&pid=ImgDetMain"
+      "Poster": "https://th.bing.com/th/id/OIP.-OFkUcfCgtxiolQLHu63UQHaLA?rs=1&pid=ImgDetMain",
+      "Review": "A visually stunning remake that captures the heart of the original, but the lack of emotion in the characters' expressions detracts from the experience."
     },
     {
       "id": "2",
       "Title": "Minions: The Rise of Gru",
       "Year": "2022",
-      "Poster": "https://www.themoviedb.org/t/p/original/4dBDk1LPdvdhcZdjQBmdXwiVKUA.jpg"
+      "Poster": "https://www.themoviedb.org/t/p/original/4dBDk1LPdvdhcZdjQBmdXwiVKUA.jpg",
+      "Review": "An entertaining and action-packed adventure that's perfect for families, but it lacks the charm and clever humor of its predecessors."
     },
     {
       "id": "3",
       "Title": "Despicable Me",
       "Year": "2010",
-      "Poster": "https://www.themoviedb.org/t/p/original/bRZT3dAv85TWLmQj4fhQg06W07D.jpg"
+      "Poster": "https://www.themoviedb.org/t/p/original/bRZT3dAv85TWLmQj4fhQg06W07D.jpg",
+      "Review": "A hilarious and heartwarming story of a supervillain turned family man, with standout performances from Steve Carell and the minions."
     },
     {
       "id": "4",
       "Title": "Kung Fu Panda",
       "Year": "2008",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4cab81d9595c6f473f75d9d89d95fe134eed871e510533a941d1d69930a24c47._RI_TTW_.jpg"
+      "Poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4cab81d9595c6f473f75d9d89d95fe134eed871e510533a941d1d69930a24c47._RI_TTW_.jpg",
+      "Review": "A delightful and fun animated film with excellent voice acting, stunning animation, and an inspiring story of self-discovery."
     },
     {
       "id": "5",
       "Title": "Kung Fu Panda 2",
       "Year": "2011",
-      "Poster": "https://th.bing.com/th/id/OIP.VrwJSjRYaJgJO6MvKp1j-wHaK-?rs=1&pid=ImgDetMain"
+      "Poster": "https://th.bing.com/th/id/OIP.VrwJSjRYaJgJO6MvKp1j-wHaK-?rs=1&pid=ImgDetMain",
+      "Review": "A worthy sequel that builds on the original's themes and humor while deepening the emotional stakes for Po and his friends."
     },
     {
       "id": "6",
       "Title": "Toy Story 4",
       "Year": "2019",
-      "Poster": "https://www.themoviedb.org/t/p/original/xwfRFs9hlNgE9UD3raI54F28Q4s.jpg"
+      "Poster": "https://www.themoviedb.org/t/p/original/xwfRFs9hlNgE9UD3raI54F28Q4s.jpg",
+      "Review": "A beautiful and emotional conclusion to the Toy Story series, with new characters and a fresh story that will tug at your heartstrings."
     },
     {
       "id": "7",
       "Title": "Frozen",
       "Year": "2013",
-      "Poster": "https://th.bing.com/th/id/OIP.QxZCCgdr5UuvsCZrqU3uLgHaKl?rs=1&pid=ImgDetMain"
+      "Poster": "https://th.bing.com/th/id/OIP.QxZCCgdr5UuvsCZrqU3uLgHaKl?rs=1&pid=ImgDetMain",
+      "Review": "A magical, musically enchanting film with a strong message of sisterhood and independence, though some aspects can feel repetitive."
     },
     {
       "id": "8",
       "Title": "Shrek 2",
       "Year": "2004",
-      "Poster": "https://th.bing.com/th/id/OIP.kwK8jk-swtpgZw5L-T2gTAHaKj?rs=1&pid=ImgDetMain"
+      "Poster": "https://th.bing.com/th/id/OIP.kwK8jk-swtpgZw5L-T2gTAHaKj?rs=1&pid=ImgDetMain",
+      "Review": "A hilarious and often surprising sequel with great character development, witty humor, and lots of fun for all ages."
     },
     {
       "id": "9",
       "Title": "Puss in Boots: The Last Wish",
       "Year": "2022",
-      "Poster": "https://m.media-amazon.com/images/S/pv-target-images/179796d91f003af3316010ead6ac917091af3b1c5ab5f96482c127e628f87cb4.jpg"
+      "Poster": "https://m.media-amazon.com/images/S/pv-target-images/179796d91f003af3316010ead6ac917091af3b1c5ab5f96482c127e628f87cb4.jpg",
+      "Review": "A surprisingly mature and visually stunning film with a compelling story and strong voice performances that elevate it beyond expectations."
     },
     {
       "id": "10",
       "Title": "Coco",
       "Year": "2017",
-      "Poster": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg"
+      "Poster": "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg",
+      "Review": "A heartwarming and visually breathtaking journey into Mexican culture, with a beautiful exploration of family, tradition, and remembering loved ones."
     },
     {
       "id": "86a6",
       "Title": "Incredibles",
       "Year": "2004",
-      "Poster": "https://th.bing.com/th/id/R.fdd342c9278057573745dcee2970a7fb?rik=BVAPWd4D5P9SGA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-6pm0yLcFDqs%2fT-mjxClPnHI%2fAAAAAAAAHts%2fnonymvXfX6o%2fs1600%2fThe%2bIncredibles%2b(2004)%2b1.jpg&ehk=WKmTZaAXqcMRod29RzcaRR0y6HUh0baCzv%2beFLk3yAA%3d&risl=&pid=ImgRaw&r=0"
+      "Poster": "https://th.bing.com/th/id/R.fdd342c9278057573745dcee2970a7fb?rik=BVAPWd4D5P9SGA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-6pm0yLcFDqs%2fT-mjxClPnHI%2fAAAAAAAAHts%2fnonymvXfX6o%2fs1600%2fThe%2bIncredibles%2b(2004)%2b1.jpg&ehk=WKmTZaAXqcMRod29RzcaRR0y6HUh0baCzv%2beFLk3yAA%3d&risl=&pid=ImgRaw&r=0",
+      "Review": "A fantastic superhero family movie that blends action, humor, and heart into a seamless experience with incredible animation and memorable characters."
+    },
+    {
+      "id": "ea77",
+      "Title": "Tangled",
+      "Year": "2010",
+      "Poster": "https://th.bing.com/th/id/OIP.3Lq5UoY8yzB0GFfMt9UtmwHaLB?w=500&h=744&rs=1&pid=ImgDetMain",
+      "Review": "Tangled (2010) is a fun, magical Disney film about Rapunzel, a princess with magical hair, who teams up with a thief on an adventurous journey. With great songs, humor, and stunning animation, it’s a modern Disney classic."
     }
   ]
 }
